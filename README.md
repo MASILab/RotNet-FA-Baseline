@@ -47,7 +47,8 @@ python3 rotnet3D_regression.py
 - The model's training progress will be logged, and visualization outputs will be saved in the result_regression directory.
 
 ## Outputs
-- Useful Feature: Saved as .json file in the format needed for evaluation code.
+- Useful Feature: Saved as .npy array
 - Training History: Plots of the mean squared error (MSE) loss over epochs.
+- Inference converts vectors to .json file so that we can upload them to our MLP testing code
 
 
