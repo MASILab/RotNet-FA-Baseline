@@ -49,11 +49,5 @@ python3 rotnet3D_regression.py
 ## Outputs
 - Useful Feature: Saved as .json file in the format needed for evaluation code.
 - Training History: Plots of the mean squared error (MSE) loss over epochs.
-<img src="result_regression/training_history.png" alt="sample" width="500" height="400">
 
-- Visualizations: Image without rotation and image with ground truth rotation / Ground truth rotation and the predicted rotation for epoch 1, 25, 50, 75, 100
-<img src="result_regression/epoch_1/sample_prediction_0.png" alt="Epoch 1" width="900" height="600">
-<img src="result_regression/epoch_25/sample_prediction_0.png" alt="Epoch 25" width="900" height="600">
-<img src="result_regression/epoch_50/sample_prediction_0.png" alt="Epoch 50" width="900" height="600">
-<img src="result_regression/epoch_75/sample_prediction_0.png" alt="Epoch 75" width="900" height="600">
-<img src="result_regression/epoch_100/sample_prediction_0.png" alt="Epoch 100" width="900" height="600">
+
