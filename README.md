@@ -2,7 +2,7 @@
 
 ## Overview
 
-Your goal as a team in the Beyond FA Challenge is to create a Docker to extract useful features of our testing images. Your imnput will be a .mha image and a .json file to represent bvals/bvecs (scripts to convert your training data from are included in this repo
+Your goal as a team in the Beyond FA Challenge is to create a Docker to extract useful features of our testing images. Your input will be a .mha image and a .json file to represent bvals/bvecs (scripts to convert your training data are included in this repo)
 
 RotNet-FA-Image is a Python-based deep learning project for predicting rotation angles of fractional anisotropy (FA) maps derived from NIfTI (.nii.gz) files. It leverages 3D convolutional neural networks (CNNs) implemented in PyTorch to regress rotation angles. The augmented data helps us extract meaningful features from the input data.
 
@@ -34,7 +34,7 @@ pip3 install -r requirements.txt
 - FA map generation
 
 These steps may or may not be necessary based on your approach.
-Though PreQual outputs include FA maps, your Docker needs include any steps beyond preprocessing so that the training/testing data can be generated in the same way.
+Though PreQual outputs include FA maps, your Docker needs to include any steps beyond preprocessing so that the training/testing data can be generated in the same way.
 
 ## Project Structure
 - `NiiDataset`: Custom PyTorch Dataset class for loading and preprocessing NIfTI files.
@@ -53,5 +53,3 @@ python3 rotnet3D_regression.py
 - Useful Feature: Saved as .npy array
 - Training History: Plots of the mean squared error (MSE) loss over epochs.
 - Inference converts vectors to .json file so that we can upload them to our MLP testing code
-
-
