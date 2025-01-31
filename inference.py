@@ -6,6 +6,7 @@ from scipy.ndimage import rotate
 import matplotlib.pyplot as plt
 import json
 
+# Author: Gaurav Rudravaram
 
 class RotationRegressionModel(nn.Module):
     def __init__(self):
