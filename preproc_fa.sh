@@ -1,5 +1,5 @@
 #!/bin/bash
-
+## By Jongyeon Yoon and Elyssa McMaster
 out_dir=$1
 dmri_file=$2
 json_file=$3  # Accept the JSON file as input
