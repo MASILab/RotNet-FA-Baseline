@@ -1,6 +1,9 @@
 # RotNet-FA-Image
 
 ## Overview
+
+Your goal as a team in the Beyond FA Challenge is to create a Docker to extract useful features of our testing images. Your imnput will be a .mha image and a .json file to represent bvals/bvecs (scripts to convert your training data from are included in this repo
+
 RotNet-FA-Image is a Python-based deep learning project for predicting rotation angles of fractional anisotropy (FA) maps derived from NIfTI (.nii.gz) files. It leverages 3D convolutional neural networks (CNNs) implemented in PyTorch to regress rotation angles. The augmented data helps us extract meaningful features from the input data.
 
 Original RotNet repo: https://github.com/d4nst/RotNet
