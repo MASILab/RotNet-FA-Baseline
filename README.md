@@ -1,7 +1,5 @@
 # RotNet-FA-Image
 
-## Needs a Docker!!
-
 ## Overview
 
 Your goal as a team in the Beyond FA Challenge is to create a Docker to extract useful features of our testing images. Your input will be a .mha image and a .json file to represent bvals/bvecs (scripts to convert your training data are included in this repo)
